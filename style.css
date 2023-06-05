@@ -177,15 +177,59 @@ h2{
     background-color:rgb(21,19,16);
     color: aliceblue;
     padding-left: 15vh;
+    padding-right: 15vh;
     padding-top: 10vh;
+
     /* border : 10px solid black; */
 }
 .food{
+    /* border : 1px solid pink; */
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 .thirdpage img{
-    height: 7vh;
-    width: 7vh;
-    border : 1px solid black;
+    height: 10vh;
+    width: 10vh;
+    /* border : 1px solid pink; */
     border-radius: 50%;
-    
+
+}
+.thirdpage img:hover{
+    height:12vh;
+    width: 12vh;
+    transition-duration: 0.5s;
+}
+.heading{
+    color: #cda45e;
+}
+.pizza,.sandwhich,.vadapav,.sizzler,.masaladosa,.French-Fries,.Paneer,.shake{
+    /* border : 1px solid pink;  */
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    display: grid;
+    grid-template-columns: 12vh auto;   
+}
+.pizza p,.sandwhich p,.vadapav p,.sizzler p,.masaladosa p,.French-Fries p,.Paneer p,.shake p{
+    /* display: inline-block; */
+    /* border : 1px solid pink; */
+    font-size: 1.2rem;
+    color: rgb(221, 232, 241);
+}
+.content{
+    padding-top: 1.2vh;
+    font-family: 'Josefin Sans', sans-serif;
+    /* border : 1px solid pink; */
+    /* display: inline-block; */
+}
+.content p:nth-child(2){
+    /* border : 1px solid pink; */
+    margin-top: 0.5vh;
+    margin-left: 1vw;
+    /* line-height: 1vh; */
+    font-size: 0.9rem;
+    color: rgb(150, 160, 160);
+}
+.content p:nth-child(1):hover{
+    color: #cda45e;
+    transition-duration: 0.5s;
 }
